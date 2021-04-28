@@ -6,7 +6,7 @@ export const AddCategory = ( { setCategories } ) => {
   const [inputValue, setInputValue] = useState('');
 
   const handleInputValue = ( e ) => {
-    setInputValue( e.target.value );
+    setInputValue( e.target.value )
   };
 
   const handleSubmit = ( e ) => {
